@@ -108,6 +108,7 @@ function TipInput({
             type={type}
             name={name}
             onChange={(e) => handleChange(e.target.value)}
+            autoComplete="off"
           />
         </>
       )}
